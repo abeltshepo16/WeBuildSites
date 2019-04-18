@@ -342,6 +342,20 @@ hr {
   height: 0;
 }
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 0.5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 /* ------------------------------------------------------------------- 
  * ## Lists
  * ------------------------------------------------------------------- */
@@ -1881,7 +1895,7 @@ input::-moz-focus-inner {
   }
 
   .header-menu-toggle {
-    top: 3rem;
+    top: 1rem;
     right: 40px;
   }
 
@@ -1995,6 +2009,9 @@ input::-moz-focus-inner {
   background: #000000;
 }
 
+
+
+
 /* ------------------------------------------------------------------- 
  * ## home content
  * ------------------------------------------------------------------- */
@@ -2003,22 +2020,31 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   vertical-align: bottom;
-  padding-bottom: 15.6rem;
+  padding-bottom: 1.6rem;
   overflow: hidden;
   position: relative;
 }
 
 .home-content h1 {
-  font-size: 6.6rem;
-  font-weight: 600;
-  line-height: 1.5;
+  font-size: 0.4rem;
+  font-weight: 2;
+  line-height: 1;
+  margin-top: 50;
+  color: #FFFFFF;
+}
+
+
+.home-content p {
+  font-size: 1.5rem;
+  font-weight: 6;
+  line-height: 1;
   margin-top: 0;
   color: #FFFFFF;
 }
 
 .home-content__main {
-  padding-right: 28rem;
-  position: relative;
+  padding-right: 10rem;
+  position: left;
   max-width: 1400px;
 }
 
@@ -2030,6 +2056,25 @@ input::-moz-focus-inner {
   margin-right: 0;
 }
 
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column h6
+{
+  font-size: 20px;
+  margin-top: 0%;
+  text-align: center;
+  color: #FFFFFF;
+}
 /* ------------------------------------------------------------------- 
  * ## home video link
  * ------------------------------------------------------------------- */

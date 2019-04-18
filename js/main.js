@@ -125,6 +125,9 @@
     };
 
 
+    /*Circle Loader____________*/
+
+
     /* Highlight the current section in the navigation bar
      * ------------------------------------------------------ */
     var clWaypoints = function() {
